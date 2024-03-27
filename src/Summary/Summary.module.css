@@ -40,15 +40,37 @@
     border: 1px solid #ccc;
   }
   
-  .report {
-    margin-top: 20px;
-  }
-  
-  .report h4 {
-    margin-bottom: 10px;
-  }
-  
   .summary {
     margin-top: 20px;
   }
+  .report {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .report h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .report>div {
+    margin-top: 15px;
+  }
+
+  .report p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .report p:first-child {
+    font-weight: bold;
+  }
+
+
   
